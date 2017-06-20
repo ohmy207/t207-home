@@ -1,0 +1,46 @@
+use_xft yes
+xftfont 123:size=8
+xftalpha 0.1
+update_interval 1
+total_run_times 0
+own_window yes
+own_window_type desktop
+own_window_argb_visual yes
+own_window_argb_value 0
+own_window_transparent no
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+minimum_size 250 5
+maximum_width 784
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color white
+default_shade_color red
+default_outline_color green
+alignment top_left
+gap_x 1187
+gap_y 873
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+net_avg_samples 1
+override_utf8_locale yes
+use_spacer yes
+
+
+TEXT
+${voffset 14}${color EAEAEA}${font Ubuntu:pixelsize=168}${time %H:%M}${font}${voffset -117}${offset 7}${color FFA300}${font GE Inspira:pixelsize=59}${time %d} ${voffset -21}${color EAEAEA}${font WenQuanYi Micro Hei Mono:pixelsize=31}${time  %B} ${time %Y}${font}${voffset 34}${font WenQuanYi Micro Hei Mono:pixelsize=76}${offset -207}${time %A}${font}
+${voffset 8}${offset 17}${font Ubuntu:pixelsize=14}${color FFA300}RAM ${offset 8}$color$mem / $memmax${offset 35}${color FFA300}CPU ${offset 8}$color${cpu cpu0}%${offset 35}${color FFA300}Bat ${offset 8}$color${battery_percent BAT1}%${offset 35}${color FFA300}Tem ${offset 8}$color${acpitemp}'C${offset 35}${color FFA300}Vol ${offset 8}$color${exec amixer get Master -M | grep -oE "[[:digit:]]*%"}${offset 35}${color FFA300}Net ${offset 8}$color${downspeedf wlp8s0}KiB
+
+
+
+
+
+
+
+
+
+
+

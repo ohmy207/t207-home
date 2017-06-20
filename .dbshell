@@ -1,0 +1,99 @@
+use geass_topic
+show collections
+db.proposal_edit_log.find().pretty()
+db.topic_edit_log.find().pretty()
+db.proposal_edit_log.find().pretty()
+use geass_user
+db.user.find().pretty()
+show dbs
+use geass_topic
+db.dropDatabase()
+show dbs
+use geass_user
+show collections
+db.approve2opinion.drop()
+db.follow2topic.drop()
+db.notice.drop()
+show collections
+db.vote2proposal.drop()
+show collections
+show dbs
+show dbs
+use geass_user
+show collections
+use geass_user
+db.user.find().pretty()
+use geass_user
+show collections
+db.notice.find({}, {isread:1}).pretty()
+db.notice.find({uid:ObjectId('55bffc73dae5361ba35b326f')}, {isread:1}).pretty()
+use geass_user
+db.user.find()
+use geass_user
+db.user.find()
+use geass_user
+db.user.find().pretty()
+use geass_user
+db.user.find().pretty()
+use geass_topic
+show collections
+db.opinion.find().pretty()
+use geass_topic
+db.opinion.find().pretty()
+db.opinion.find().sort({'anum:-1'}, {ctime:1}).pretty()
+db.opinion.find().sort({'anum:-1', ctime:1}).pretty()
+db.opinion.find().sort({anum:-1, ctime:1}).pretty()
+db.opinion.find({}, {anum:1}).sort({anum:-1, ctime:1}).pretty()
+db.opinion.find({}, {anum:1}).sort({anum:-1, ctime:-1}).pretty()
+use geass_topic
+db.opinion.find().limit(-1).pretty()
+db.opinion.find().limit(1).pretty()
+use geass_user
+show collections
+db.user.find.pretty
+db.user.find.pretty()
+db.user.find().pretty()
+db.user.find({open: {}}).pretty()
+db.user.find({open: {}}).remove()
+db.user.remove({open: {}})
+db.user.find({open: {}}).pretty()
+db.user.remove({open: {}})
+db.user.find().pretty()
+use geass_user
+db.user.find().pretty()
+db.user.find({open: {}}).pretty()
+db.user.remove({open: {}})
+db.user.find({open: {}}).pretty()
+db.user.remove({open: {}})
+db.user.find({open: {}}).pretty()
+db.user.remove({open: {}})
+db.user.find({open: {}}).pretty()
+db.user.remove({open: {}})
+db.user.find({open: {}}).pretty()
+db.user.remove({open: {}})
+db.user.find({open: {}}).pretty()
+db.user.remove({open: {}})
+db.user.find({open: {}}).pretty()
+use geass_user
+db.user.find().pretty()
+use geass_user
+db.user.find().pretty()
+use geass_user
+db.user.find().pretty()
+use geass_user
+db.user.find().pretty()
+use geass_user
+db.user.find().pretty()
+use geass_user
+db.user.find().pretty()
+use geass_user
+db.user.find().pretty()
+use geass_user
+db.user.find().pretty()
+db.user.update({"_id" : ObjectId("55bffc73dae5361ba35b326f")}, {$set:{'_id': ObjectId("569e088e3e9ff6721a8f8e81")}})
+db.user.update({open.wx.nickname : '三爷'}, {$set:{'_id': ObjectId("569e088e3e9ff6721a8f8e81")}})
+db.user.update({nickname : '三爷'}, {$set:{'_id': ObjectId("569e088e3e9ff6721a8f8e81")}})
+db.user.find().pretty()
+db.user.find().pretty()
+use geass_user
+db.user.find().pretty()

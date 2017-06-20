@@ -1,0 +1,9 @@
+# Write your default config options here!
+#
+ao=alsa
+subcp=cp936
+overlapsub=1
+sub-fuzziness=1
+fontconfig=0
+
+

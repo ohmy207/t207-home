@@ -1,0 +1,16 @@
+"3.8.2 (created: 2014/02/13 23:52:43)
+
+map h gT
+map l gt
+map k <Up>
+map j <Down>
+map J <C-d>
+map K <C-u>
+noremap H <C-o>
+noremap L <C-i>
+noremap x <C-o>
+noremap X <C-i>
+
+source! /home/t207/.vimperatorrc.local
+
+" vim: set ft=vimperator:

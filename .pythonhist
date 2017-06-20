@@ -1,0 +1,100 @@
+a
+heap_sort(a)
+from coding_addendum import heap_sort
+a = range(11, -1, -1)
+a.extend([7, 10, 6])
+a
+heap_sort(a)
+import math
+math.ceil(11)
+math.ceil(11.1)
+math.log(10)
+math.log(1, 10)
+math.log(100, 10)
+math.log(2)
+import math
+math.log(4, 2)
+math.log(4)
+math.log(10)
+math.ceil(math.log(10))
+[] * 2
+[[]] * 2
+[[]] * 10
+[[] for i in range(10)]
+b = range(10)
+del b[:]
+b
+c = [[]] * 10
+c
+c[1].append(1)
+c
+c[1]
+c = [[]] * 10
+d = [[] for i in range(10)]
+c
+d
+c == d
+type(c)
+type(d)
+c[0]
+c[0].append(1)
+c
+d[0].append(1)
+d
+c = [[]] * 10
+c[0] is c[1]
+id(c[0])
+id(c[1])
+from coding_addendum import radix_sort
+a = range(11, -1, -1)
+a.extend([7, 10, 6])
+a
+radix_sort(a)
+a
+from coding_addendum import radix_sort
+a = range(11, -1, -1)
+a.extend([7, 10, 6])
+a
+radix_sort(a)
+a
+a
+from coding_addendum import radix_sort
+a = range(11, -1, -1)
+a.extend([7, 10, 6])
+a
+radix_sort(a)
+from coding_addendum import radix_sort
+a = range(11, -1, -1)
+a.extend([7, 10, 6])
+a
+radix_sort(a)
+a
+a
+A = type(A, (), {})
+A = type('A', (), {})
+type(A)
+a = A()
+type(a)
+A.mro
+A.mro()
+A.__name__
+b = A.__new__()
+b = A.__new__(A)
+b
+type(A.__new__)
+assert 1==2
+assert 1==2, 'dayima'
+help(type)
+import inspect
+inspect.getsource(type.__new__)
+inspect.getsource(type(str).__new__)
+inspect.getsource(type('A', (), {}).__new__)
+type('A', (), {}).__new__()
+2 ** 16
+2 ** 8
+2 ** 15
+237 + 147
+384 / 2
+0.27 + 0.67 + 0.04 +0.05+0.42+0.07
+339 * .088
+339 * 0.88
